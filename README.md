@@ -23,24 +23,43 @@ Terá conhecimento das práticas e metodologias usadas e toda abordagem e conhec
    ### 5. ADR
    
    ### 6. Procedimento de Construção
-   #### 1. Fundação
-   ##### 1. AWS
-   ###### 1. Contas
-   ###### 2. Redes
-   ###### 3. Conectividade
-   #### 2. OnPrem
-   ##### 1. Servidores
-   ##### 2. Conectividade
-   #### 3. Recursos de observabilidade
-   #### 4. Recursos de segurança
-   ##### 1. ZTNA
-   ##### 2. DSPM
-   ###### 1. Confidencialidade
-   ###### 2. Integridade
-   ###### 3. Disponibilidade
-   ###### 4. Autenticidade
-   ###### 5. Responsabilidade
-   ###### 6. Não Repúdio
-   #### 5. Deploy Aplicação
+   
+   #### 6.1. Fundação
+   
+   ##### 6.1.1. AWS
+   
+   ###### 6.1.1.1. Contas
+   
+   ###### 6.1.2. Redes
+   
+   ###### 6.1.3. Conectividade
+   
+   #### 6.2. OnPrem
+   
+   ##### 6.2.1. Servidores
+   
+   ##### 6.2.2. Conectividade
+   
+   #### 6.3. Recursos de observabilidade
+   
+   #### 6.4. Recursos de segurança
+   
+   ##### 6.4.1. ZTNA
+   
+   ##### 6.4.2. DSPM
+   
+   ###### 6.4.2.1. Confidencialidade
+   
+   ###### 6.4.2.2. Integridade
+   
+   ###### 6.4.2.3. Disponibilidade
+   
+   ###### 6.4.2.4. Autenticidade
+   
+   ###### 6.4.2.5. Responsabilidade
+   
+   ###### 6.4.2.6. Não Repúdio
+
+   #### 6.5. Deploy Aplicação
    
    ### 7. Testes
