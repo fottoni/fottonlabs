@@ -29,13 +29,13 @@ Sendo assim a estrutura proposta para o ciclo de vida de nossas aplicações con
 
 ## [1. Processos de Design](designprocess.md#1.-processos-de-design)
 
-## 2. Processos de Provisionamento
+## [2. Processos de Provisionamento](provisionprocess.md#2.-processos-de-provisionamento)
    
-## 3. Processos de Validação e Testes
+## [3. Processos de Validação e Testes](validproc.md#3-processos-de-validação-e-testes)
 
-## 4. Processos de Deploy
+## [4. Processos de Deploy](deployproc.md#4-processos-de-deploy)
 
-## 5. Processos de Sustentação
+## [5. Processos de Sustentação](sustproc.md#5-processos-de-sustentação)
 
 
 -----------------------------------------------------------------------------------
