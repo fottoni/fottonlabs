@@ -7,4 +7,4 @@
         A aplicação consumirá informações que serão consolidadas a partir de servidores remotos OnPremise, cujo entregarão as informações de saldo consolidadas através um arquivo de aproximadamente 50GB.
 
 ## Layout de infra da aplicação
-         <img src="fottonlabs.png" alt="AppSaldo - Infra Layout" />
+         <img src="fottonlabs.png" alt="AppSaldo - Infra Layout">
