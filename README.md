@@ -42,8 +42,6 @@ Sendo assim a estrutura proposta para o ciclo de vida de nossas aplicações con
 
 Abaixo temos os links diretos para os cases já desenvolvidos no FottonLabs:
 
-## 1. Cases
+## Cases
 
-   ### 1. Case 1 - AppSaldo
-
-         <img src="fottonlabs.png" alt="AppSaldo - Infra Layout" />
+### [Case 1 - AppSaldo](case1.md#case-1---appsaldo)
