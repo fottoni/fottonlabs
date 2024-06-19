@@ -1,14 +1,14 @@
 ##  1. Processos de Design
 
-###  1.1 Mapeamento dos Pré Requisitos da Aplicação
-###  1.2 Definição das tecnologias
-###  1.3 Desenvolvimento da ADR (Architecture Decision Register)
-###  1.4 Desenho do layout de infra
-###  1.5 Desenho do Fluxo da Aplicação
-###  1.6 Detalhamento do cenário
-####   1.6.1 Escalabilidade
-#####    1.6.1.1 Horizontal
-          - Adicione mais instâncias de serviço para lidar com aumentos de carga.
+###     1.1 Mapeamento dos Pré Requisitos da Aplicação
+###     1.2 Definição das tecnologias
+###     1.3 Desenvolvimento da ADR (Architecture Decision Register)
+###     1.4 Desenho do layout de infra
+###     1.5 Desenho do Fluxo da Aplicação
+###     1.6 Detalhamento do cenário
+####        1.6.1 Escalabilidade
+#####       1.6.1.1 Horizontal
+            Adicione mais instâncias de serviço para lidar com aumentos de carga.
 ##### 1.6.1.1 Vertical
 Aumente os recursos de uma única instância (CPU, memória) conforme necessário.
 #### 1.6.2 Resiliência e alta disponibilidade
