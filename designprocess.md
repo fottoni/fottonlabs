@@ -1,54 +1,54 @@
-## 1. Processos de Design
+##  1. Processos de Design
 
-   ### 1.1 Mapeamento dos Pré Requisitos da Aplicação
-   ### 1.2 Definição das tecnologias
-   ### 1.3 Desenvolvimento da ADR (Architecture Decision Register)
-   ### 1.4 Desenho do layout de infra
-   ### 1.5 Desenho do Fluxo da Aplicação
-   ### 1.6 Detalhamento do cenário
-   #### 1.6.1 Escalabilidade
-   ##### 1.6.1.1 Horizontal
-   Adicione mais instâncias de serviço para lidar com aumentos de carga.
-   ##### 1.6.1.1 Vertical
-   Aumente os recursos de uma única instância (CPU, memória) conforme necessário.
-   #### 1.6.2 Resiliência e alta disponibilidade
-   ##### 1.6.2.1 Redundância
-   Implante múltiplas instâncias de serviços em diferentes zonas de disponibilidade ou regiões.
-   ##### 1.6.2.2 Failover automatizado
-   Configure mecanismos para failover automático para garantir que a aplicação permaneça disponível mesmo durante falhas.
-   ##### 1.6.2.3 Backup e recuperação
-   Implemente backups regulares e tenha planos de recuperação de desastres.
-   #### 1.6.3 Desempenho e eficiência
-   ##### 1.6.3.1 Autoescalamento
-   Use ferramentas de autoescalamento para ajustar automaticamente a capacidade com base na demanda.
-   ##### 1.6.3.2 Otimização de recursos
-   Monitore e otimize o uso de recursos para minimizar custos e maximizar a eficiência.
-   #### 1.6.4 Segurança
-   ##### 1.6.4.1 Autenticação e Autorização
-   Garanta que somente usuários e serviços autorizados possam acessar recursos.
-   ##### 1.6.4.2 Criptografia
-   Utilize criptografia para dados em trânsito e em repouso.
-   ##### 1.6.4.3 Gerenciamento de Identidade e Acesso (IAM)
-   Use políticas de IAM para gerenciar permissões e acesso a recursos.
-   #### 1.6.5 Isolamento e contenção
-   ##### 1.6.5.1 Isolamento de Ambientes
-   Separe os ambientes de desenvolvimento, teste e produção.
-   ##### 1.6.5.2 Contenção de Falhas
-   Divida a aplicação em microserviços ou componentes menores para limitar o impacto de falhas.
-   #### 1.6.6 Automação de infraestrutura como código (IaC)
-   ##### 1.6.6.1 Infraestrutura como Código
-   Use ferramentas como Terraform, AWS CloudFormation ou Azure Resource Manager para definir e gerenciar a infraestrutura.
-   ##### 1.6.6.1 Automação de Implantação
-   Automatize o processo de implantação para reduzir erros e aumentar a eficiência.
-   #### 1.6.7 Monitoramento e observabilidade
-   ##### 1.6.71 Monitoramento Contínuo
-   Use ferramentas de monitoramento para acompanhar a saúde e o desempenho da aplicação e da infraestrutura.
-   ##### 1.6.71 Logs e Métricas
-   Colete e analise logs e métricas para detectar e resolver problemas rapidamente.
-   #### 1.6.8 Gerenciamento de Custos:
-   ##### 1.6.8.1 Otimização de Custos
-   Monitore e otimize os custos, utilizando serviços sob demanda, instâncias reservadas e descontos por uso contínuo.
-   ##### 1.6.8.2 Orçamento e Alocação de Custos
+### - 1.1 Mapeamento dos Pré Requisitos da Aplicação
+### - 1.2 Definição das tecnologias
+### - 1.3 Desenvolvimento da ADR (Architecture Decision Register)
+### - 1.4 Desenho do layout de infra
+### - 1.5 Desenho do Fluxo da Aplicação
+### - 1.6 Detalhamento do cenário
+####  - 1.6.1 Escalabilidade
+#####   - 1.6.1.1 Horizontal
+          - Adicione mais instâncias de serviço para lidar com aumentos de carga.
+##### 1.6.1.1 Vertical
+Aumente os recursos de uma única instância (CPU, memória) conforme necessário.
+#### 1.6.2 Resiliência e alta disponibilidade
+##### 1.6.2.1 Redundância
+Implante múltiplas instâncias de serviços em diferentes zonas de disponibilidade ou regiões.
+##### 1.6.2.2 Failover automatizado
+Configure mecanismos para failover automático para garantir que a aplicação permaneça disponível mesmo durante falhas.
+##### 1.6.2.3 Backup e recuperação
+Implemente backups regulares e tenha planos de recuperação de desastres.
+#### 1.6.3 Desempenho e eficiência
+##### 1.6.3.1 Autoescalamento
+Use ferramentas de autoescalamento para ajustar automaticamente a capacidade com base na demanda.
+##### 1.6.3.2 Otimização de recursos
+Monitore e otimize o uso de recursos para minimizar custos e maximizar a eficiência.
+#### 1.6.4 Segurança
+##### 1.6.4.1 Autenticação e Autorização
+Garanta que somente usuários e serviços autorizados possam acessar recursos.
+##### 1.6.4.2 Criptografia
+Utilize criptografia para dados em trânsito e em repouso.
+##### 1.6.4.3 Gerenciamento de Identidade e Acesso (IAM)
+Use políticas de IAM para gerenciar permissões e acesso a recursos.
+#### 1.6.5 Isolamento e contenção
+##### 1.6.5.1 Isolamento de Ambientes
+Separe os ambientes de desenvolvimento, teste e produção.
+##### 1.6.5.2 Contenção de Falhas
+Divida a aplicação em microserviços ou componentes menores para limitar o impacto de falhas.
+#### 1.6.6 Automação de infraestrutura como código (IaC)
+##### 1.6.6.1 Infraestrutura como Código
+Use ferramentas como Terraform, AWS CloudFormation ou Azure Resource Manager para definir e gerenciar a infraestrutura.
+##### 1.6.6.1 Automação de Implantação
+Automatize o processo de implantação para reduzir erros e aumentar a eficiência.
+#### 1.6.7 Monitoramento e observabilidade
+##### 1.6.71 Monitoramento Contínuo
+Use ferramentas de monitoramento para acompanhar a saúde e o desempenho da aplicação e da infraestrutura.
+##### 1.6.71 Logs e Métricas
+Colete e analise logs e métricas para detectar e resolver problemas rapidamente.
+#### 1.6.8 Gerenciamento de Custos:
+##### 1.6.8.1 Otimização de Custos
+Monitore e otimize os custos, utilizando serviços sob demanda, instâncias reservadas e descontos por uso contínuo.
+##### 1.6.8.2 Orçamento e Alocação de Custos
    Use ferramentas de orçamento e alocação de custos para manter controle sobre os gastos.
    #### 1.6.9 Conformidade e Governança
    #### 1.6.9.1 Conformidade Regulatória
