@@ -1,19 +1,19 @@
 - ## 1.6 Detalhamento do cenário
     - ### 1.6.1 Escalabilidade
-    - ##### 1.6.1.1 Horizontal
-        Adicione mais instâncias de serviço para lidar com aumentos de carga.
-    - ##### 1.6.1.1 Vertical
-        Aumente os recursos de uma única instância (CPU, memória) conforme necessário.
+        - ##### 1.6.1.1 Horizontal
+            Adicione mais instâncias de serviço para lidar com aumentos de carga.
+        - ##### 1.6.1.1 Vertical
+            Aumente os recursos de uma única instância (CPU, memória) conforme necessário.
     - #### 1.6.2 Resiliência e alta disponibilidade
         - ##### 1.6.2.1 Redundância
             Implante múltiplas instâncias de serviços em diferentes zonas de disponibilidade ou regiões.
         - ##### 1.6.2.2 Failover automatizado
             Configure mecanismos para failover automático para garantir que a aplicação permaneça disponível mesmo durante falhas.
-    - ##### 1.6.2.3 Backup e recuperação
-        Implemente backups regulares e tenha planos de recuperação de desastres.
+        - ##### 1.6.2.3 Backup e recuperação
+            Implemente backups regulares e tenha planos de recuperação de desastres.
     - #### 1.6.3 Desempenho e eficiência
-    - ##### 1.6.3.1 Autoescalamento
-        Use ferramentas de autoescalamento para ajustar automaticamente a capacidade com base na demanda.
+        - ##### 1.6.3.1 Autoescalamento
+            Use ferramentas de autoescalamento para ajustar automaticamente a capacidade com base na demanda.
         - ##### 1.6.3.2 Otimização de recursos
             Monitore e otimize o uso de recursos para minimizar custos e maximizar a eficiência.
     - #### 1.6.4 Segurança
@@ -44,10 +44,10 @@
         - ##### 1.6.8.2 Orçamento e Alocação de Custos
             Use ferramentas de orçamento e alocação de custos para manter controle sobre os gastos.
     - #### 1.6.9 Conformidade e Governança
-    - #### 1.6.9.1 Conformidade Regulatória
-        Assegure que a infraestrutura e os processos estejam em conformidade com regulamentações e padrões de segurança.
-    - #### 1.6.9.2 Políticas de Governança
-        Implemente políticas de governança para gerenciar e controlar o uso de recursos na nuvem.
+        - #### 1.6.9.1 Conformidade Regulatória
+            Assegure que a infraestrutura e os processos estejam em conformidade com regulamentações e padrões de segurança.
+        - #### 1.6.9.2 Políticas de Governança
+            Implemente políticas de governança para gerenciar e controlar o uso de recursos na nuvem.
     - #### 1.6.10 Design de Rede
         - ##### 1.6.10.1 Segurança de Rede
             Use firewalls, grupos de segurança e redes privadas virtuais (VPNs) para proteger a comunicação.
@@ -60,7 +60,7 @@
     - #### 1.6.13 Adoção de Práticas Ágeis
         Integre práticas ágeis e DevOps para melhorar a colaboração entre as equipes de desenvolvimento e operações.
     - #### 1.6.14 Teste e validação
-    - ##### 1.6.14.1 Ambientes de Teste
-        Crie ambientes de teste para validar o provisionamento antes de implantar em produção.
+        - ##### 1.6.14.1 Ambientes de Teste
+            Crie ambientes de teste para validar o provisionamento antes de implantar em produção.
         - ##### 1.6.14.2 Testes Automatizados
             Implemente testes automatizados para verificar a integridade e funcionalidade da infraestrutura provisionada.
