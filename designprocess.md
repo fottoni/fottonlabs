@@ -1,20 +1,20 @@
 ## 1. Processos de Design
-   ### 1.1 Mapeamento dos Pré Requisitos da Aplicação
-   ### 1.2 Definição das tecnologias
-   ### 1.3 Desenvolvimento da ADR (Architecture Decision Register)
-   ### 1.4 Desenho do layout de infra
-   ### 1.5 Desenho do Fluxo da Aplicação
-   ### 1.6 Detalhamento do cenário
-      #### 1.6.1 Escalabilidade
-      #####       1.6.1.1 Horizontal
-            Adicione mais instâncias de serviço para lidar com aumentos de carga.
-##### 1.6.1.1 Vertical
-Aumente os recursos de uma única instância (CPU, memória) conforme necessário.
-#### 1.6.2 Resiliência e alta disponibilidade
-##### 1.6.2.1 Redundância
-Implante múltiplas instâncias de serviços em diferentes zonas de disponibilidade ou regiões.
-##### 1.6.2.2 Failover automatizado
-Configure mecanismos para failover automático para garantir que a aplicação permaneça disponível mesmo durante falhas.
+   - ### 1.1 Mapeamento dos Pré Requisitos da Aplicação
+   - ### 1.2 Definição das tecnologias
+   - ### 1.3 Desenvolvimento da ADR (Architecture Decision Register)
+   - ### 1.4 Desenho do layout de infra
+   - ### 1.5 Desenho do Fluxo da Aplicação
+   - ### 1.6 Detalhamento do cenário
+      - #### 1.6.1 Escalabilidade
+         - ##### 1.6.1.1 Horizontal
+         Adicione mais instâncias de serviço para lidar com aumentos de carga.
+         - ##### 1.6.1.1 Vertical
+         Aumente os recursos de uma única instância (CPU, memória) conforme necessário.
+     - #### 1.6.2 Resiliência e alta disponibilidade
+         - ##### 1.6.2.1 Redundância
+         Implante múltiplas instâncias de serviços em diferentes zonas de disponibilidade ou regiões.
+         - ##### 1.6.2.2 Failover automatizado
+         Configure mecanismos para failover automático para garantir que a aplicação permaneça disponível mesmo durante falhas.
 ##### 1.6.2.3 Backup e recuperação
 Implemente backups regulares e tenha planos de recuperação de desastres.
 #### 1.6.3 Desempenho e eficiência
