@@ -8,7 +8,7 @@ Terá conhecimento das práticas e metodologias usadas e toda abordagem e conhec
 
 No meu entendimento e experiência de anos atuando em empresas do setor financeiro e em consultorias globais parceiras de  AWS, Microsoft e Google, a melhor maneira de exemplificar suas capacidades é através da demonstração de suas habilidades de entregar aquilo que você está vendendo e/ou propondo a adoção.
 
-Em TI, demonstrar significa, principalmente nos dias de hoje, em infraestrutura, provisionar todos os recursos tecnológicos que sustentam diversos tipos de aplicações, sob as mais diversas exigências em termos de disponibilidade, elasticidade e capacidade de suportar crescimentos e reduções sem interrupção e/ou degradação dos serviços de uma aplicação.
+Em TI, "demonstrar" significa, principalmente nos dias de hoje, em infraestrutura, provisionar todos os recursos tecnológicos que sustentam diversos tipos de aplicações, sob as mais diversas exigências em termos de disponibilidade, elasticidade e capacidade de suportar crescimentos e reduções sem interrupção e/ou degradação dos serviços de uma aplicação.
 
 Enfim, todos sabemos que para o provisionamento de uma aplicação não somente são necessários os conhecimentos sobre as tecnologias, como também são, tão importantes ou até mais importantes, a maneira como se relacionam as tecnologias e como as diversas possibilidades e combinções se adequam melhor a umas situações ou outras.
 
@@ -27,15 +27,15 @@ Boa leitura. Divirta-se!
 Conforme comentado acima, vamos atravessar todos os cases, imaginando que estamos participando de todos os processos, desde o nascimento das workloads até seu provisionamento e produção/sustentação tanto em nuvem quanto para as situações em que tecnologias OnPremise foram mais adequadas e/ou limitadas a esse, tal qual como é o papel do Arquiteto de Soluções Cloud na maior parte das empresas.
 Sendo assim a estrutura proposta para o ciclo de vida de nossas aplicações conterá as seguintes fases:
 
-## [1. Processos de Design](designprocess.md#1.-processos-de-design)
+### [1. Processos de Design](designprocess.md#1.-processos-de-design)
 
-## [2. Processos de Provisionamento](provisionprocess.md#2.-processos-de-provisionamento)
+### [2. Processos de Provisionamento](provisionprocess.md#2.-processos-de-provisionamento)
    
-## [3. Processos de Validação e Testes](validproc.md#3-processos-de-validação-e-testes)
+### [3. Processos de Validação e Testes](validproc.md#3-processos-de-validação-e-testes)
 
-## [4. Processos de Deploy](deployproc.md#4-processos-de-deploy)
+### [4. Processos de Deploy](deployproc.md#4-processos-de-deploy)
 
-## [5. Processos de Sustentação](sustproc.md#5-processos-de-sustentação)
+### [5. Processos de Sustentação](sustproc.md#5-processos-de-sustentação)
 
 
 -----------------------------------------------------------------------------------
